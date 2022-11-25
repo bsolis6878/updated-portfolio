@@ -8,7 +8,8 @@ function App() {
   return (
     <div>
       <header>
-
+        <Header />
+        <Navigation />
       </header>
       <body>
 
