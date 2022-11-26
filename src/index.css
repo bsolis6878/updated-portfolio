@@ -69,3 +69,23 @@ section {
   width: 75%;
   padding-left: 40px;
 }
+
+.project {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.project img {
+  width: 100%;
+  margin: 10px;
+}
+
+a {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}

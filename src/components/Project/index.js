@@ -17,9 +17,55 @@ function Project({ currentlySelected }) {
                 </div>
             </section>
         )
-    } else if (currentlySelected === 'Portfolio') {
+    } else if (currentlySelected === 'Project') {
         return (
-            <h1>Portfolio</h1>
+            <>
+                <h3 className='center'>A few of the projects I've worked on, click on the link to visit the repository or click the image to visit the deployed application!</h3>
+                <section>
+                    <div className='project-container'>
+                        <div className='project'>
+                            <a href='https://github.com/bsolis6878/time-2-work' target='_blank'>Time 2 Work</a>
+                            <a href='https://protected-taiga-76694.herokuapp.com/' target='_blank'>
+                                <img src={require('../../assets/time-2-work.jpeg')} alt='Image of the Time 2 Work website' />
+                            </a>
+                        </div>
+                        <div className='project'>
+                            <a href='https://github.com/bsolis6878/Weather-Check' target='_blank'>Weather Check</a>
+                            <a href='https://bsolis6878.github.io/Weather-Check/' target='_blank'>
+                                <img src={require('../../assets/weather-check.jpg')} alt='Image of the Weather Check website' />
+                            </a>
+                        </div>
+                    </div>
+                    <div className='project-container'>
+                        <div className='project'>
+                            <a href='https://github.com/bsolis6878/note-taker' target='_blank'>Note Taker</a>
+                            <a href='https://tranquil-ocean-56832.herokuapp.com/' target='_blank'>
+                                <img src={require('../../assets/note-taker.jpg')} alt='Image of the Note Taker website' />
+                            </a>
+                        </div>
+                        <div className='project'>
+                            <a href='https://github.com/bsolis6878/taskinator' target='_blank'>Taskinator</a>
+                            <a href='https://bsolis6878.github.io/taskinator/' target='_blank'>
+                                <img src={require('../../assets/taskinator.jpg')} alt='Image of the Taskinator website' />
+                            </a>
+                        </div>
+                    </div>
+                    <div className='project-container'>
+                        <div className='project'>
+                            <a href='https://github.com/bsolis6878/dog-finder' target='_blank'>Dog Finder</a>
+                            <a href='https://bsolis6878.github.io/Dog-Finder/' target='_blank'>
+                                <img src={require('../../assets/dog-finder.jpg')} alt='Image of the Dog Finder website' />
+                            </a>
+                        </div>
+                        <div className='project'>
+                            <a href='https://github.com/bsolis6878/tech-blog' target='_blank'>Tech Blog</a>
+                            <a href='https://aqueous-falls-42297.herokuapp.com/' target='_blank'>
+                                <img src={require('../../assets/tech-blog.jpg')} alt='Image of the Tech Blog website' />
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </>
         )
     }
 }

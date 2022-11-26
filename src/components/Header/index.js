@@ -8,9 +8,9 @@ function Header({ currentlySelected, setCurrentlySelected }) {
                     className={currentlySelected === 'About Me' && 'active-nav'}
                 >About Me</p>
                 <p 
-                    onClick={() => setCurrentlySelected('Portfolio')}
-                    className={currentlySelected === 'Portfolio' && 'active-nav'}
-                >Portfolio</p>
+                    onClick={() => setCurrentlySelected('Project')}
+                    className={currentlySelected === 'Project' && 'active-nav'}
+                >Projects</p>
                 <p 
                     onClick={() => setCurrentlySelected('Contact')}
                     className={currentlySelected === 'Contact' && 'active-nav'}
