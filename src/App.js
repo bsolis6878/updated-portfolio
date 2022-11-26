@@ -10,7 +10,10 @@ function App() {
 
   return (
     <>
-      <Header setCurrentlySelected={setCurrentlySelected} />
+      <Header 
+        currentlySelected={currentlySelected}
+        setCurrentlySelected={setCurrentlySelected}
+      />
       <Project currentlySelected={currentlySelected} />
       <Footer />
     </>
