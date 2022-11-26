@@ -1,22 +1,23 @@
 import './App.css';
 import Header from './components/Header';
-import Navigation from './components/Navigation';
 import Project from './components/Project';
 import Footer from './components/Footer';
 
 function App() {
+
+  const [currentlySelected, setCurrentlySelected] = useState('');
+
   return (
     <div>
-      <header>
-        <Header />
-        <Navigation />
-      </header>
-      <body>
-
-      </body>
-      <footer>
-
-      </footer>
+      <Header
+        currentlySelected={currentlySelected}
+        setCurrentlySelected={setCurrentlySelected}
+        />
+      <Project
+        currentlySelected={currentlySelected}
+        setCurrentlySelected={setCurrentlySelected}
+        />
+      <Footer />
     </div>
   );
 }
