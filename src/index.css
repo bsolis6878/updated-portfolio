@@ -45,5 +45,27 @@ nav p {
 }
 
 section {
-  background-color: var(--tertiary)
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--tertiary);
+  border-radius: 25px;
+  margin: 25px;
+  padding: 20px 100px;
+  border: 2px solid black;
+}
+
+.profile-picture {
+  width: 25%;
+}
+
+.profile-picture img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-me {
+  text-align: center;
+  width: 75%;
+  padding-left: 40px;
 }
