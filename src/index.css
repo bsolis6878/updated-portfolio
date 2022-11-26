@@ -2,6 +2,7 @@
   --primary: #69DDFF;
   --secondary: #96CDFF;
   --tertiary: #D8E1FF;
+  --lavender: #DBBADD;
 }
 
 body {
@@ -23,7 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0px 50px;
-  background-color: var(--primary);
+  background-image: linear-gradient(to bottom right, var(--primary), var(--lavender));
   font-size: 20px;
   border-bottom: 3px black solid;
 }

@@ -15,9 +15,7 @@ function Header({ currentlySelected, setCurrentlySelected }) {
                     onClick={() => setCurrentlySelected('Contact')}
                     className={currentlySelected === 'Contact' && 'active-nav'}
                 >Contact</p>
-                <p 
-                    onClick={() => setCurrentlySelected('Resume')}
-                    className={currentlySelected === 'Resume' && 'active-nav'}>Resume</p>
+                <a href='../../assets/Bryan-Solis-Resume.pdf' download><p>Resume</p></a>
             </nav>
         </header>
     )

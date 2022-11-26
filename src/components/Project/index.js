@@ -67,6 +67,14 @@ function Project({ currentlySelected }) {
                 </section>
             </>
         )
+    } else if (currentlySelected === 'Contact') {
+        return (
+            <section>
+                <h3>I can be reached through the GitHub, Linkedin, and Twitter links below,
+                    or you may reach me directly at bsolis6878@gmail.com. Thank you for
+                    taking a look at my portfolio!</h3>
+            </section>
+        )
     }
 }
 
