@@ -39,7 +39,7 @@ function Project({ currentlySelected }) {
                     <div className='project-container'>
                         <div className='project'>
                             <a href='https://github.com/bsolis6878/note-taker' target='_blank'>Note Taker</a>
-                            <a href='https://tranquil-ocean-56832.herokuapp.com/' target='_blank'>
+                            <a href='https://agile-river-85950.herokuapp.com/' target='_blank'>
                                 <img src={require('../../assets/note-taker.jpg')} alt='Image of the Note Taker website' />
                             </a>
                         </div>
