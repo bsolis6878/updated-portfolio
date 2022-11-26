@@ -1,10 +1,8 @@
-import React from 'react';
-
 function Project() {
     return (
-        <body>
+        <section>
             
-        </body>
+        </section>
     )
 }
 
