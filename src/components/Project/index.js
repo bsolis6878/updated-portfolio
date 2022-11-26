@@ -1,7 +1,14 @@
 function Project({ currentlySelected }) {
     if (currentlySelected === 'About Me') {
         return (
-            <h1>About Me</h1>
+            <section>
+                <div>
+
+                </div>
+                <div>
+                    
+                </div>
+            </section>
         )
     } else if (currentlySelected === 'Portfolio') {
         return (

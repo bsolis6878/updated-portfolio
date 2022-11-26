@@ -5,19 +5,19 @@ function Header({ currentlySelected, setCurrentlySelected }) {
             <nav>
                 <p 
                     onClick={() => setCurrentlySelected('About Me')}
-                    className={currentlySelected === 'About Me' && 'active'}
+                    className={currentlySelected === 'About Me' && 'active-nav'}
                 >About Me</p>
                 <p 
                     onClick={() => setCurrentlySelected('Portfolio')}
-                    className={currentlySelected === 'Portfolio' && 'active'}
+                    className={currentlySelected === 'Portfolio' && 'active-nav'}
                 >Portfolio</p>
                 <p 
                     onClick={() => setCurrentlySelected('Contact')}
-                    className={currentlySelected === 'Contact' && 'active'}
+                    className={currentlySelected === 'Contact' && 'active-nav'}
                 >Contact</p>
                 <p 
                     onClick={() => setCurrentlySelected('Resume')}
-                    className={currentlySelected === 'Resume' && 'active'}>Resume</p>
+                    className={currentlySelected === 'Resume' && 'active-nav'}>Resume</p>
             </nav>
         </header>
     )
