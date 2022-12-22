@@ -38,9 +38,9 @@ function Project({ currentlySelected }) {
                     </div>
                     <div className='project-container'>
                         <div className='project'>
-                            <a href='https://github.com/bsolis6878/note-taker' target='_blank'>Note Taker</a>
-                            <a href='https://agile-river-85950.herokuapp.com/' target='_blank'>
-                                <img src={require('../../assets/note-taker.jpg')} alt='Image of the Note Taker website' />
+                            <a href='https://github.com/bsolis6878/job-rater' target='_blank'>Job Rater</a>
+                            <a href='https://blooming-stream-37548.herokuapp.com/' target='_blank'>
+                                <img src={require('../../assets/job-rater.png')} alt='Image of the Job Rater website' />
                             </a>
                         </div>
                         <div className='project'>
