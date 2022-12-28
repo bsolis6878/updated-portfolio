@@ -47,13 +47,17 @@ nav p {
 
 section {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
   background-color: var(--tertiary);
   border-radius: 25px;
   margin: 25px;
   padding: 20px 100px;
   border: 2px solid black;
+}
+
+.intro-container {
+  display: flex;
+  align-items: center;
 }
 
 .profile-picture {
@@ -78,9 +82,13 @@ section {
   padding: 20px;
 }
 
+.project p {
+  width: 40vw;
+}
+
 .project img {
-  width: 100%;
-  margin: 10px;
+  width: 40vw;
+  height: 45vh;
 }
 
 a {
@@ -111,5 +119,14 @@ footer img {
 
   section {
     flex-direction: column;
+  }
+
+  .project p {
+    width: auto;
+  }
+  
+  .project img {
+    width: 60vw;
+    height: 30vh;
   }
 }

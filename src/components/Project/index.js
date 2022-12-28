@@ -2,18 +2,20 @@ function Project({ currentlySelected }) {
     if (currentlySelected === 'About Me') {
         return (
             <section>
-                <div className='profile-picture'>
-                    <img src={require('../../assets/profile.JPG')} alt='Image of developer Bryan Solis' />
-                </div>
-                <div className='about-me'>
-                    <h3>Welcome to my portfolio!</h3>
-                    <p>
-                        As an aspiring web developer, I have hands on experience with many web development technologies including
-                        HTML, CSS, front-end and back-end Javascript, the MERN stack (MongoDB, Express.js, React, and Node.js),
-                        MySQL using Sequelize, Git and GitHub, third-party and server-side APIs, and the Model-View-Controller (MVC)
-                        structure. I believe my ability to grasp new concepts and apply them effectively would be a great asset to
-                        any project, so thank you in advance for your consideration!
-                    </p>
+                <div className='intro-container'>
+                    <div className='profile-picture'>
+                        <img src={require('../../assets/profile.JPG')} alt='Image of developer Bryan Solis' />
+                    </div>
+                    <div className='about-me'>
+                        <h3>Welcome to my portfolio!</h3>
+                        <p>
+                            As an aspiring web developer, I have hands on experience with many web development technologies including
+                            HTML, CSS, front-end and back-end Javascript, the MERN stack (MongoDB, Express.js, React, and Node.js),
+                            MySQL using Sequelize, Git and GitHub, third-party and server-side APIs, and the Model-View-Controller (MVC)
+                            structure. I believe my ability to grasp new concepts and apply them effectively would be a great asset to
+                            any project, so thank you in advance for your consideration!
+                        </p>
+                    </div>
                 </div>
             </section>
         )
@@ -22,47 +24,69 @@ function Project({ currentlySelected }) {
             <>
                 <h3 className='center'>A few of the projects I've worked on, click on the link to visit the repository or click the image to visit the deployed application!</h3>
                 <section>
-                    <div className='project-container'>
-                        <div className='project'>
-                            <a href='https://github.com/bsolis6878/time-2-work' target='_blank'>Time 2 Work</a>
-                            <a href='https://protected-taiga-76694.herokuapp.com/' target='_blank'>
-                                <img src={require('../../assets/time-2-work.jpeg')} alt='Image of the Time 2 Work website' />
-                            </a>
-                        </div>
-                        <div className='project'>
-                            <a href='https://github.com/bsolis6878/Weather-Check' target='_blank'>Weather Check</a>
-                            <a href='https://bsolis6878.github.io/Weather-Check/' target='_blank'>
-                                <img src={require('../../assets/weather-check.jpg')} alt='Image of the Weather Check website' />
-                            </a>
-                        </div>
+                    <div className='project'>
+                        <a href='https://github.com/bsolis6878/time-2-work' target='_blank'>Time 2 Work</a>
+                        <p>
+                            Time 2 Work is a time tracking application for employees, this site was built 
+                            using the Model View Controller structure with Handlebars.js on the front end,
+                            RESTful APIs, and Sequelize/MySQL on the backend.
+                        </p>
+                        <a href='https://protected-taiga-76694.herokuapp.com/' target='_blank'>
+                            <img src={require('../../assets/time-2-work.jpeg')} alt='Image of the Time 2 Work website' />
+                        </a>
                     </div>
-                    <div className='project-container'>
-                        <div className='project'>
-                            <a href='https://github.com/bsolis6878/job-rater' target='_blank'>Job Rater</a>
-                            <a href='https://blooming-stream-37548.herokuapp.com/' target='_blank'>
-                                <img src={require('../../assets/job-rater.png')} alt='Image of the Job Rater website' />
-                            </a>
-                        </div>
-                        <div className='project'>
-                            <a href='https://github.com/bsolis6878/taskinator' target='_blank'>Taskinator</a>
-                            <a href='https://bsolis6878.github.io/taskinator/' target='_blank'>
-                                <img src={require('../../assets/taskinator.jpg')} alt='Image of the Taskinator website' />
-                            </a>
-                        </div>
+                    <div className='project'>
+                        <a href='https://github.com/bsolis6878/Weather-Check' target='_blank'>Weather Check</a>
+                        <p>
+                            Weather Check uses Javascript to dynamically render the HTML elements
+                            and a 3rd party API to query the weather of any city.
+                        </p>
+                        <a href='https://bsolis6878.github.io/Weather-Check/' target='_blank'>
+                            <img src={require('../../assets/weather-check.jpg')} alt='Image of the Weather Check website' />
+                        </a>
                     </div>
-                    <div className='project-container'>
-                        <div className='project'>
-                            <a href='https://github.com/bsolis6878/dog-finder' target='_blank'>Dog Finder</a>
-                            <a href='https://bsolis6878.github.io/Dog-Finder/' target='_blank'>
-                                <img src={require('../../assets/dog-finder.jpg')} alt='Image of the Dog Finder website' />
-                            </a>
-                        </div>
-                        <div className='project'>
-                            <a href='https://github.com/bsolis6878/tech-blog' target='_blank'>Tech Blog</a>
-                            <a href='https://aqueous-falls-42297.herokuapp.com/' target='_blank'>
-                                <img src={require('../../assets/tech-blog.jpg')} alt='Image of the Tech Blog website' />
-                            </a>
-                        </div>
+                    <div className='project'>
+                        <a href='https://github.com/bsolis6878/job-rater' target='_blank'>Job Rater</a>
+                        <p>
+                            Job Rater uses the Client Server file structure with a React SPA
+                            front-end and GraphQL/MongoDB back-end to create a site for leaving work
+                            related reviews and blog posts.
+                        </p>
+                        <a href='https://blooming-stream-37548.herokuapp.com/' target='_blank'>
+                            <img src={require('../../assets/job-rater.png')} alt='Image of the Job Rater website' />
+                        </a>
+                    </div>
+                    <div className='project'>
+                        <a href='https://github.com/bsolis6878/taskinator' target='_blank'>Taskinator</a>
+                        <p>
+                            Taskinator uses pure Javascript to dynamically render HTML elements
+                            and store data in local storage in order to create an application
+                            that helps manage the progress of various tasks.
+                        </p>
+                        <a href='https://bsolis6878.github.io/taskinator/' target='_blank'>
+                            <img src={require('../../assets/taskinator.jpg')} alt='Image of the Taskinator website' />
+                        </a>
+                    </div>
+                    <div className='project'>
+                        <a href='https://github.com/bsolis6878/dog-finder' target='_blank'>Dog Finder</a>
+                        <p>
+                            Dog Finder uses Javascript and a 3rd party API in order to query
+                            and link to dog adoptions, as well as favorite them using local storage.
+                        </p>
+                        <a href='https://bsolis6878.github.io/Dog-Finder/' target='_blank'>
+                            <img src={require('../../assets/dog-finder.jpg')} alt='Image of the Dog Finder website' />
+                        </a>
+                    </div>
+                    <div className='project'>
+                        <a href='https://github.com/bsolis6878/tech-blog' target='_blank'>Tech Blog</a>
+                        <p>
+                            Tech Blog uses the Model View Controller structure with a Handlebars.js
+                            front-end, RESTful API structure, and a Sequelize/MySQL back-end to create
+                            a forum site for making tech related posts.
+                        </p>
+                        <a href='https://aqueous-falls-42297.herokuapp.com/' target='_blank'>
+                            <img src={require('../../assets/tech-blog.png')} alt='Image of the Tech Blog website' />
+                        </a>
                     </div>
                 </section>
             </>
