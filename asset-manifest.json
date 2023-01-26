@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/updated-portfolio/static/css/main.4674abed.css",
-    "main.js": "/updated-portfolio/static/js/main.44273901.js",
+    "main.css": "/updated-portfolio/static/css/main.b735d60c.css",
+    "main.js": "/updated-portfolio/static/js/main.a06fbdde.js",
     "static/js/787.d47a0f03.chunk.js": "/updated-portfolio/static/js/787.d47a0f03.chunk.js",
     "static/media/time-2-work.jpeg": "/updated-portfolio/static/media/time-2-work.ef700b24477250e53520.jpeg",
     "static/media/dog-finder.jpg": "/updated-portfolio/static/media/dog-finder.98dac8c3ddfba95dec9b.jpg",
     "static/media/profile.JPG": "/updated-portfolio/static/media/profile.3c5fdf96356e43b7cc90.JPG",
+    "static/media/tech-blog.jpg": "/updated-portfolio/static/media/tech-blog.760ac391a9f0e127e2bb.jpg",
     "static/media/weather-check.jpg": "/updated-portfolio/static/media/weather-check.bac36b330a17a07fcc3e.jpg",
     "static/media/job-rater.png": "/updated-portfolio/static/media/job-rater.99247d2d1b450ecbf3b3.png",
     "static/media/taskinator.jpg": "/updated-portfolio/static/media/taskinator.0a12c19778eb6176425c.jpg",
-    "static/media/tech-blog.png": "/updated-portfolio/static/media/tech-blog.3c0fd2aeb6e7703189d8.png",
     "index.html": "/updated-portfolio/index.html",
-    "main.4674abed.css.map": "/updated-portfolio/static/css/main.4674abed.css.map",
-    "main.44273901.js.map": "/updated-portfolio/static/js/main.44273901.js.map",
+    "main.b735d60c.css.map": "/updated-portfolio/static/css/main.b735d60c.css.map",
+    "main.a06fbdde.js.map": "/updated-portfolio/static/js/main.a06fbdde.js.map",
     "787.d47a0f03.chunk.js.map": "/updated-portfolio/static/js/787.d47a0f03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4674abed.css",
-    "static/js/main.44273901.js"
+    "static/css/main.b735d60c.css",
+    "static/js/main.a06fbdde.js"
   ]
 }
