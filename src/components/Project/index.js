@@ -9,11 +9,12 @@ function Project({ currentlySelected }) {
                     <div className='about-me'>
                         <h3>Welcome to my portfolio!</h3>
                         <p>
-                            As an aspiring web developer, I have hands on experience with many web development technologies including
+                            As a full stack web developer, I have hands on experience with many web development technologies including
                             HTML, CSS, front-end and back-end Javascript, the MERN stack (MongoDB, Express.js, React, and Node.js),
-                            MySQL using Sequelize, Git and GitHub, third-party and server-side APIs, and the Model-View-Controller (MVC)
-                            structure. I believe my ability to grasp new concepts and apply them effectively would be a great asset to
-                            any project, so thank you in advance for your consideration!
+                            MySQL using Sequelize, Git Bash and GitHub, RESTful, third-party, and server-side APIs, Apollo Client,
+                            GraphQL, Handlebars.js, Bootstrap, and the Model-View-Controller (MVC) structure. I believe my ability
+                            to grasp new concepts and apply them effectively would be a great asset to any project, 
+                            so thank you in advance for your consideration!
                         </p>
                     </div>
                 </div>
@@ -36,16 +37,6 @@ function Project({ currentlySelected }) {
                         </a>
                     </div>
                     <div className='project'>
-                        <a href='https://github.com/bsolis6878/Weather-Check' target='_blank'>Weather Check</a>
-                        <p>
-                            Weather Check uses Javascript to dynamically render the HTML elements
-                            and a 3rd party API to query the weather of any city.
-                        </p>
-                        <a href='https://bsolis6878.github.io/Weather-Check/' target='_blank'>
-                            <img src={require('../../assets/weather-check.jpg')} alt='Image of the Weather Check website' />
-                        </a>
-                    </div>
-                    <div className='project'>
                         <a href='https://github.com/bsolis6878/job-rater' target='_blank'>Job Rater</a>
                         <p>
                             Job Rater uses the Client Server file structure with a React SPA
@@ -54,6 +45,27 @@ function Project({ currentlySelected }) {
                         </p>
                         <a href='https://blooming-stream-37548.herokuapp.com/' target='_blank'>
                             <img src={require('../../assets/job-rater.png')} alt='Image of the Job Rater website' />
+                        </a>
+                    </div>
+                    <div className='project'>
+                        <a href='https://github.com/bsolis6878/tech-blog' target='_blank'>Tech Blog</a>
+                        <p>
+                            Tech Blog uses the Model View Controller structure with a Handlebars.js
+                            front-end, RESTful API structure, and a Sequelize/MySQL back-end to create
+                            a forum site for making tech related posts.
+                        </p>
+                        <a href='https://aqueous-falls-42297.herokuapp.com/' target='_blank'>
+                            <img src={require('../../assets/tech-blog.jpg')} alt='Image of the Tech Blog website' />
+                        </a>
+                    </div>
+                    <div className='project'>
+                        <a href='https://github.com/bsolis6878/Weather-Check' target='_blank'>Weather Check</a>
+                        <p>
+                            Weather Check uses Javascript to dynamically render the HTML elements
+                            and a 3rd party API to query the weather of any city.
+                        </p>
+                        <a href='https://bsolis6878.github.io/Weather-Check/' target='_blank'>
+                            <img src={require('../../assets/weather-check.jpg')} alt='Image of the Weather Check website' />
                         </a>
                     </div>
                     <div className='project'>
@@ -75,17 +87,6 @@ function Project({ currentlySelected }) {
                         </p>
                         <a href='https://bsolis6878.github.io/Dog-Finder/' target='_blank'>
                             <img src={require('../../assets/dog-finder.jpg')} alt='Image of the Dog Finder website' />
-                        </a>
-                    </div>
-                    <div className='project'>
-                        <a href='https://github.com/bsolis6878/tech-blog' target='_blank'>Tech Blog</a>
-                        <p>
-                            Tech Blog uses the Model View Controller structure with a Handlebars.js
-                            front-end, RESTful API structure, and a Sequelize/MySQL back-end to create
-                            a forum site for making tech related posts.
-                        </p>
-                        <a href='https://aqueous-falls-42297.herokuapp.com/' target='_blank'>
-                            <img src={require('../../assets/tech-blog.png')} alt='Image of the Tech Blog website' />
                         </a>
                     </div>
                 </section>

@@ -107,7 +107,26 @@ footer img {
   margin: 20px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1700px) {
+  section {
+    display: block;
+  }
+
+  .project p {
+    width: auto;
+  }
+
+  .project img {
+    width: 60vw;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  section {
+    padding: 20px;
+  }
+
   header {
     flex-direction: column;
     text-align: center;
@@ -117,8 +136,20 @@ footer img {
     flex-direction: column;
   }
 
-  section {
+  .intro-container {
     flex-direction: column;
+  }
+
+  .about-me {
+    width: 80%;
+  }
+
+  .profile-picture img {
+    width: 30vw;
+  }
+
+  .center {
+    margin: 15px;
   }
 
   .project p {
@@ -126,7 +157,19 @@ footer img {
   }
   
   .project img {
-    width: 60vw;
-    height: 30vh;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project img {
+    width: 325px;
+    height: 300px;
   }
 }
