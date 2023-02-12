@@ -26,17 +26,6 @@ function Project({ currentlySelected }) {
                 <h3 className='center'>A few of the projects I've worked on, click on the link to visit the repository or click the image to visit the deployed application!</h3>
                 <section>
                     <div className='project'>
-                        <a href='https://github.com/bsolis6878/time-2-work' target='_blank'>Time 2 Work</a>
-                        <p>
-                            Time 2 Work is a time tracking application for employees, this site was built 
-                            using the Model View Controller structure with Handlebars.js on the front end,
-                            RESTful APIs, and Sequelize/MySQL on the backend.
-                        </p>
-                        <a href='https://protected-taiga-76694.herokuapp.com/' target='_blank'>
-                            <img src={require('../../assets/time-2-work.jpeg')} alt='Image of the Time 2 Work website' />
-                        </a>
-                    </div>
-                    <div className='project'>
                         <a href='https://github.com/bsolis6878/job-rater' target='_blank'>Job Rater</a>
                         <p>
                             Job Rater uses the Client Server file structure with a React SPA
@@ -77,16 +66,6 @@ function Project({ currentlySelected }) {
                         </p>
                         <a href='https://bsolis6878.github.io/taskinator/' target='_blank'>
                             <img src={require('../../assets/taskinator.jpg')} alt='Image of the Taskinator website' />
-                        </a>
-                    </div>
-                    <div className='project'>
-                        <a href='https://github.com/bsolis6878/dog-finder' target='_blank'>Dog Finder</a>
-                        <p>
-                            Dog Finder uses Javascript and a 3rd party API in order to query
-                            and link to dog adoptions, as well as favorite them using local storage.
-                        </p>
-                        <a href='https://bsolis6878.github.io/Dog-Finder/' target='_blank'>
-                            <img src={require('../../assets/dog-finder.jpg')} alt='Image of the Dog Finder website' />
                         </a>
                     </div>
                 </section>
