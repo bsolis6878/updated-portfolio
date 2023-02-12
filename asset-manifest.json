@@ -1,10 +1,8 @@
 {
   "files": {
     "main.css": "/updated-portfolio/static/css/main.b735d60c.css",
-    "main.js": "/updated-portfolio/static/js/main.a06fbdde.js",
+    "main.js": "/updated-portfolio/static/js/main.401e4b95.js",
     "static/js/787.d47a0f03.chunk.js": "/updated-portfolio/static/js/787.d47a0f03.chunk.js",
-    "static/media/time-2-work.jpeg": "/updated-portfolio/static/media/time-2-work.ef700b24477250e53520.jpeg",
-    "static/media/dog-finder.jpg": "/updated-portfolio/static/media/dog-finder.98dac8c3ddfba95dec9b.jpg",
     "static/media/profile.JPG": "/updated-portfolio/static/media/profile.3c5fdf96356e43b7cc90.JPG",
     "static/media/tech-blog.jpg": "/updated-portfolio/static/media/tech-blog.760ac391a9f0e127e2bb.jpg",
     "static/media/weather-check.jpg": "/updated-portfolio/static/media/weather-check.bac36b330a17a07fcc3e.jpg",
@@ -12,11 +10,11 @@
     "static/media/taskinator.jpg": "/updated-portfolio/static/media/taskinator.0a12c19778eb6176425c.jpg",
     "index.html": "/updated-portfolio/index.html",
     "main.b735d60c.css.map": "/updated-portfolio/static/css/main.b735d60c.css.map",
-    "main.a06fbdde.js.map": "/updated-portfolio/static/js/main.a06fbdde.js.map",
+    "main.401e4b95.js.map": "/updated-portfolio/static/js/main.401e4b95.js.map",
     "787.d47a0f03.chunk.js.map": "/updated-portfolio/static/js/787.d47a0f03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b735d60c.css",
-    "static/js/main.a06fbdde.js"
+    "static/js/main.401e4b95.js"
   ]
 }
